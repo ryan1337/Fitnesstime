@@ -16,6 +16,79 @@ html {
     line-height: 1.4;
 }
 
+* {
+  font-family: Roboto !important;
+}
+
+body {
+  padding-top: 70px;
+}
+
+.navigation a {
+  color: lightgrey !important;
+  padding-right: 30px !important;
+  border-left: 1px solid #ebebeb;
+}
+
+.navigation a:hover {
+  color: #cda85c !important;
+}
+
+img {
+  /*display: none !important;*/
+}
+
+.img22 {
+  float: right;
+}
+
+.test {
+  float: right;
+}
+
+footer {
+  background-color: #CE1709;
+  height: 30%;
+  line-height: 80px;
+  margin-top: 10px;
+}
+
+footer a {
+  color: white;
+  font-size: 16px!important;
+}
+
+footer ul li {
+}
+
+footer a:hover {
+  font-weight: bold;
+  color: white!important;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
+#back-top-wrapper #back-top img {
+  height: 19px;
+  width: 19px;
+
+}
+
+#back-top img {
+  display: block;
+  margin-bottom: 7px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  filter:
+  brightness(0.1);
+}
+
+#back-top img:hover {
+  opacity: 0.5;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
