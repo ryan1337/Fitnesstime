@@ -53,6 +53,10 @@ footer {
   margin-top: 10px;
 }
 
+.foot {
+  margin-top: 150px;
+}
+
 footer a {
   color: white;
   font-size: 16px!important;

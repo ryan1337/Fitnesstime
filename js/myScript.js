@@ -1,3 +1,4 @@
-$(document).ready(function() {
-  $('collapse').collapse();
+$('.datepicker').datepicker({
+    format: 'mm/dd/yyyy',
+    startDate: '-3d'
 });
