@@ -21,18 +21,9 @@ html {
 }
 
 body {
-  padding-top: 70px;
+  padding-top: 90px!important;
 }
 
-.navigation a {
-  color: lightgrey !important;
-  padding-right: 30px !important;
-  border-left: 1px solid #ebebeb;
-}
-
-.navigation a:hover {
-  color: #cda85c !important;
-}
 
 img {
   /*display: none !important;*/
@@ -43,7 +34,16 @@ img {
 }
 
 .test {
+
   float: right;
+}
+
+.carousel {
+  margin-bottom: 100px!important;
+}
+
+button {
+  margin-top: 30px!important;
 }
 
 footer {
